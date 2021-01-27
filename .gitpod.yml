@@ -2,7 +2,7 @@ image: lemmster/gitpod-dafny:latest
   
 vscode:
   extensions:
-    - correctnessLab.dafny-vscode@0.17.1:y0vNEkuQw4SUFvPIFxLkEA==
+    - correctnesslab.dafny-vscode@1.3.0:qqcrDrb6RLgVzx0RFRjIig==
  
 tasks:
   - command: gp open sort.dfy
