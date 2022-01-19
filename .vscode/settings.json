@@ -1,0 +1,15 @@
+{
+    "files.exclude": {
+        ".gitignore": true,
+        ".gitpod.yml": true,
+        ".devcontainer": true,
+        ".github": true,
+        ".vscode": true,
+        ".theia": true
+    },
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.useTabStops": false,
+    "redhat.telemetry.enabled": false,
+    "dafny.basePath": "/opt/dafny"
+}

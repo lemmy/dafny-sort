@@ -1,8 +1,4 @@
 image: lemmster/gitpod-dafny:latest
-  
-vscode:
-  extensions:
-    - correctnessLab.dafny-vscode@0.17.1:y0vNEkuQw4SUFvPIFxLkEA==
  
 tasks:
-  - command: gp open sort.dfy
+  - command: code --install-extension .theia/dafny.vsix && gp open sort.dfy
