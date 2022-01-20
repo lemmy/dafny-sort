@@ -3,6 +3,9 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"dafny-lang.ide-vscode"
-	]
+		"dafny-lang.ide-vscode",
+		"shd101wyy.markdown-preview-enhanced"
+	],
+
+	"postCreateCommand": "wget -qN https://github.com/dafny-lang/dafny/releases/download/v3.4.0-prerelease0/dafny-3.4.0-prerelease0-x64-ubuntu-16.04.zip -P /tmp && unzip /tmp/dafny-3.4.0-prerelease0-x64-ubuntu-16.04.zip"
 }

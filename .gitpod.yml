@@ -1,4 +1,5 @@
 image: lemmster/gitpod-dafny:latest
  
 tasks:
+  - init: sudo ln -s /workspace /workspaces && wget https://github.com/dafny-lang/dafny/releases/download/v3.3.0/dafny-3.3.0-x64-ubuntu-16.04.zip && unzip dafny-3.3.0-x64-ubuntu-16.04.zip
   - command: code --install-extension .theia/dafny.vsix && gp open sort.dfy

@@ -5,11 +5,13 @@
         ".devcontainer": true,
         ".github": true,
         ".vscode": true,
-        ".theia": true
+        ".theia": true,
+        "dafny": true,
     },
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
     "editor.useTabStops": false,
     "redhat.telemetry.enabled": false,
-    "dafny.basePath": "/opt/dafny"
+    "dafny.basePath": "/opt/dafny",
+    "markdown-preview-enhanced.enableScriptExecution": true
 }
